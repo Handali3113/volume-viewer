@@ -1,4 +1,5 @@
-import { CADViewer } from 'https://cdn.jsdelivr.net/npm/@gkjohnson/three-cad-viewer@0.6.1/build/three-cad-viewer.min.js';
+import { CADViewer } from 'https://unpkg.com/@gkjohnson/three-cad-viewer@0.6.1/build/three-cad-viewer.min.js';
+
 
 const container = document.getElementById('viewer');
 const viewer = new CADViewer({ element: container });
